@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <themes>
+        <theme handle="charpie_portfolio" package="charpie_themes" activated="0"/>
+    </themes>
+</concrete5-cif>

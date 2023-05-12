@@ -1,0 +1,114 @@
+.outer {
+    --fade-time: 4s;
+    fill: none;
+    stroke: rgba(129, 183, 255, 1);
+    stroke-width: 2;
+    stroke-dasharray: 80 45;
+    stroke-dashoffset: 252;
+}
+
+.outer-spin {
+    animation: rotate 8s linear infinite forwards;
+}
+
+.inner {
+    --fade-time: 4500ms;
+    fill: none;
+    stroke: rgba(200, 200, 255, 4);
+    stroke-width: 2;
+    stroke-dasharray: 70 45;
+    stroke-dashoffset: 232;
+}
+
+.inner-spin {
+    animation: rotate 7s linear infinite forwards;
+}
+
+.pause {
+    animation-play-state: paused;
+}
+
+.center{
+    position:fixed;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
+
+span {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(226, 238, 253);
+    display:block
+}
+
+.flexbox {
+    display: flex;
+    
+}
+
+.outer-spin {
+    animation: rotate 3s linear infinite;
+}
+
+.inner-spin {
+    animation: rotate 4s linear infinite;
+}
+
+.fade-in {
+    animation: fadein var(--fade-time) linear 1;
+}
+
+.finished {
+    animation: fadeout 1s linear 1;
+}
+
+#title-text {
+    --fade-time: 5s;
+    position: fixed;
+    text-align: center;
+    width: 300px;
+    left: calc(50% - 150px);
+    top: calc(50% - 175px);
+}
+
+#title-text h1{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    color:rgb(226, 238, 253);
+}
+
+#hero-text {
+    --fade-time: 6s;
+    position: fixed;
+    text-align: center;
+    width: 300px;
+    left: calc(50% - 150px);
+    top: calc(50% + 50px);
+}
+
+#hero-text h1{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color:rgb(226, 238, 253);
+}
+
+@keyframes rotate {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    to {
+        color: rgba(256, 256, 256, 0);
+    }
+}

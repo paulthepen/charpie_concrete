@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="452.74084"
+   height="371.2475"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs198" />
+<polygon
+   id="beard"
+   points="75,70 75,95 93,105 107,105 125,95 125,70 115,70 115,85 105,90 95,90 85,85 85,70 "
+   fill="#8091b1"
+   transform="matrix(9.054817,0,0,9.054817,-679.11127,-579.50829)" />
+<polygon
+   id="moustache"
+   points="85,90 97,85 103,85 115,90 115,85 103,80 97,80 85,85 "
+   fill="#8091b1"
+   transform="matrix(9.054817,0,0,9.054817,-679.11127,-579.50829)" />
+<polygon
+   id="glasses"
+   points="85,65 98,65 98,70 102,70 102,65 115,65 115,75 102,75 102,70 98,70 98,75 85,75 "
+   fill="none"
+   stroke="#8091b1"
+   stroke-width="2px"
+   transform="matrix(9.054817,0,0,9.054817,-679.11127,-579.50829)" />
+
+    `;
+</svg>
